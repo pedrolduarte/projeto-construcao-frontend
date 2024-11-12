@@ -1,0 +1,73 @@
+/* Definindo o estilo do corpo da página */
+body {
+  margin: 0; /* Remove a margem padrão do navegador */
+  height: 100vh; /* Define a altura para ocupar toda a altura da tela */
+  background: url('/images/wallpaperfundo.jpg') no-repeat center center fixed; /* Define uma imagem de fundo fixa no centro da tela */
+  background-size: cover; /* Faz com que a imagem de fundo cubra toda a tela, sem distorção */
+  color: #C0C0C0; /* Define a cor do texto como um cinza claro */
+  font-family: Arial, sans-serif; /* Define a fonte da página como Arial */
+}
+
+html {
+  background: url('https://wallpapers.com/images/hd/synthwave-street-visuals-japan-4xeptuxge5p90s7e.jpg') no-repeat center center fixed; /* Define uma outra imagem de fundo fixa para a tag html */
+  background-size: cover; /* Faz com que a imagem de fundo cubra toda a tela */
+  background-color: #000; /* Define a cor de fundo como preto caso a imagem não carregue */
+}
+
+/* Estilizando a barra de navegação personalizada */
+.navbar-custom {
+  background-color: #151515; /* Define a cor de fundo da barra de navegação */
+  padding: 1px; /* Adiciona 1px de preenchimento em torno da barra */
+}
+
+/* Estilizando o logo na barra de navegação */
+.navbar-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-decoration: none; /* Remove o sublinhado */
+  display: inline-block; /* Garante que o logo se comporte como um bloco dentro da barra de navegação */
+}
+
+/* Estilizando o conteúdo da barra de navegação (links) */
+.navbar-collapse {
+  display: flex; /* Utiliza flexbox para o layout do conteúdo */
+  justify-content: flex-end; /* Alinha o conteúdo à direita */
+  width: auto; /* A largura do conteúdo se ajusta automaticamente */
+  flex-grow: 0; /* Impede que o conteúdo cresça para preencher espaço extra */
+}
+
+/* Estilizando os links da barra de navegação */
+.nav-link-custom {
+  font-size: 25px; /* Define o tamanho da fonte para os links */
+  letter-spacing: 0.5px; /* Adiciona um espaçamento de 0.5px entre as letras */
+  transition: color 0.3s ease; /* Define uma transição suave de 0.3s para a mudança de cor */
+  color: #ffffff; /* Define a cor dos links como branco */
+  text-decoration: none; /* Remove o sublinhado do texto dos links */
+  margin-left: 20px; /* Adiciona uma margem à esquerda de 20px entre os links */
+  display: inline-flex; /* Exibe os links em linha usando flexbox */
+}
+
+/* Mudança de cor dos links quando o mouse passa sobre eles */
+.navbar-custom .nav-link-custom:hover {
+  color: #ffffff; /* Define a cor do link como branco quando o mouse passa sobre ele */
+}
+
+/* Estilizando a área de título (por exemplo, uma barra superior) */
+.title-container {
+  background: linear-gradient(45deg, rgba(14, 14, 14, 0.8), rgba(19, 19, 19, 0.8)); /* Define um gradiente de cor de fundo */
+  height: 45px; /* Define a altura da barra de título */
+  font-weight: 600; /* Define o peso da fonte como 600 (negrito) */
+  display: flex; /* Utiliza flexbox para o layout */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Alinha o conteúdo verticalmente */
+  color: #ffffff; /* Define a cor do texto como branco */
+  font-size: 15px; /* Define o tamanho da fonte como 15px */
+}
+
+/* Estilizando o container geral da página */
+.container {
+  margin-top: 5px; /* Adiciona uma margem superior de 5px no container */
+}
